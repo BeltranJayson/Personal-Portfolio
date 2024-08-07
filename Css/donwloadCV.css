@@ -1,0 +1,24 @@
+/* Custom Button Styles */
+.btn-primary {
+    margin-top: 30px;
+    background-color: #1DA1F2;
+    /* Maroon Background */
+    color: #ffffff47;
+    /* White Text */
+    border: none;
+    border-radius: 5px;
+    /* Rounded Corners */
+    padding: 10px 20px;
+    /* Padding */
+    text-align: center;
+    text-decoration: none;
+    /* Remove underline */
+    display: inline-block;
+    
+}
+
+.btn-custom:hover {
+    background-color: #6C1F2A;
+    /* Darker Maroon on Hover */
+}
+

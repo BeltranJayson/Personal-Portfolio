@@ -1,0 +1,26 @@
+/* Container for Social Icons */
+.social-icons {
+    display: flex;
+    gap: 15px; /* Space between icons */
+  }
+  
+  /* Individual Social Icon */
+  .social-icon {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Size of the icon container */
+    height: 40px; /* Size of the icon container */
+    background-color: #333; /* Background color of the icon */
+    border-radius: 50%; /* Rounded shape */
+    color: #fff; /* Icon color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 20px; /* Size of the icon */
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover Effect */
+  .social-icon:hover {
+    background-color: #555; /* Darker background color on hover */
+  }
