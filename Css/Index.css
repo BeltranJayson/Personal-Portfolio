@@ -1,0 +1,106 @@
+/* Custom CSS can go here */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar {
+    background-color: #1B2836; /* Dark Gray Navbar */
+     border-bottom: 1px solid #3A3A3A; /*Medium Dark Gray Border */
+    margin-bottom: 0; /*Ensure no margin below navbar*/
+}
+
+.navbar-brand {
+    color: #E0E0E0; /* Light Gray Text */
+    padding-left: 50px; /* Adjust if necessary */
+}
+
+.navbar-nav .nav-link {
+    color: #E0E0E0; /* Light Gray Text */
+}
+
+.navbar-brand:hover {
+    color: #E0E0E0;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #1DA1F2; /* Lighter Blue Hover Effect */
+}
+/* Global Styles */
+body, html {
+    background-color: #16222B; /* Dark Blue Background */
+    color: #E0E0E0; /* Light Gray Text */
+    font-family: Arial, sans-serif;
+}
+
+/* Links and Buttons */
+a {
+    color: #1DA1F2; /* Lighter Blue Links */
+}
+
+a:hover, .btn-primary:hover {
+    color: #00BCD4; /* Teal on Hover */
+}
+
+.btn-primary {
+    background-color: #1DA1F2; /* Lighter Blue Button */
+    border: none;
+    color: #1B2836; /* Dark Blue Text */
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.btn-primary:hover {
+    background-color: #00BCD4; /* Teal Hover Effect */
+}
+
+/* Call-to-Action Buttons */
+.btn-accent {
+    background-color: #FF9800; /* Orange Button */
+    color: #121212; /* Dark Gray Text */
+}
+
+.btn-accent:hover {
+    background-color: #FF5722; /* Darker Orange on Hover */
+}
+
+/* Navbar */
+
+
+/* Section Headers */
+h3 {
+    color: #1DA1F2; /* White Headers */
+    padding-top: 50px;
+}
+
+h2 {
+    color: #ffffff;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    color: #ffffff;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+h6 {
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+    padding-top: 5px;
+}
+
+/* Cards */
+.card {
+    background-color: #2C2C2C; /* Dark Gray Card Background */
+    border: 1px solid #3A3A3A; /* Medium Dark Gray Border */
+    border-radius: 5px;
+    color: #E0E0E0; /* Light Gray Text */
+    margin-left: 50px;
+}
+.custom-margin-top {
+    margin-top: 100px; /* Adjust the value as needed */
+}
